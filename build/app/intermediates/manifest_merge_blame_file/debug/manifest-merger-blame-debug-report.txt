@@ -1,0 +1,591 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.courierx"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:4:5-66
+14-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:3:5-79
+15-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:3:22-76
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:5:5-69
+16-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:5:22-66
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:6:5-81
+17-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:6:22-78
+18
+19    <uses-feature
+19-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:7:5-95
+20        android:name="android.hardware.location.network"
+20-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:7:19-67
+21        android:required="false" />
+21-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:7:68-92
+22    <uses-feature
+22-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:8:5-92
+23        android:name="android.hardware.location.gps"
+23-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:8:19-63
+24        android:required="false" />
+24-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:8:64-88
+25
+26    <queries>
+26-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:45:5-59:15
+27        <intent>
+27-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:46:9-50:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:47:13-65
+28-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:47:21-62
+29
+30            <category android:name="android.intent.category.BROWSABLE" />
+30-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:48:13-74
+30-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:48:23-71
+31
+32            <data android:scheme="https" />
+32-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:49:13-44
+32-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:49:19-41
+33        </intent>
+34        <intent>
+34-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:51:9-54:18
+35            <action android:name="android.intent.action.DIAL" />
+35-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:52:13-65
+35-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:52:21-62
+36
+37            <data android:scheme="tel" />
+37-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:49:13-44
+37-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:49:19-41
+38        </intent>
+39        <intent>
+39-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:55:9-58:18
+40            <action android:name="android.intent.action.SEND" />
+40-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:56:13-65
+40-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:56:21-62
+41
+42            <data android:mimeType="*/*" />
+42-->/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:49:13-44
+43        </intent>
+44        <!-- Needs to be explicitly declared on Android R+ -->
+45        <package android:name="com.google.android.apps.maps" />
+45-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+45-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+48-->[:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-77
+48-->[:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-74
+49    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+49-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+49-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-78
+50    <uses-permission android:name="android.permission.VIBRATE" />
+50-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-66
+50-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-63
+51    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+51-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+51-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+52    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+52-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+52-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+53    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+53-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-77
+53-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-74
+54
+55    <uses-feature
+55-->[:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+56        android:name="android.hardware.telephony"
+56-->[:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-50
+57        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+57-->[:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-33
+58    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+59-->[com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+59-->[com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:22-76
+60    <uses-permission android:name="android.permission.WAKE_LOCK" />
+60-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+60-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+61    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+61-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+61-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+62
+63    <uses-feature
+63-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+64        android:glEsVersion="0x00020000"
+64-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+65        android:required="true" />
+65-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+66
+67    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+67-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+67-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+68
+69    <permission
+69-->[androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+70        android:name="com.courierx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+70-->[androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+71        android:protectionLevel="signature" />
+71-->[androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+72
+73    <uses-permission android:name="com.courierx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+73-->[androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+73-->[androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+74
+75    <application
+76        android:name="android.app.Application"
+77        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+77-->[androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+78        android:debuggable="true"
+79        android:icon="@mipmap/ic_launcher"
+80        android:label="Distro" >
+81        <meta-data
+82            android:name="com.google.android.geo.API_KEY"
+83            android:value="AIzaSyA_O-vvaa6KAqb6GYHzh4A7BLFr-FHE6l8" />
+84
+85        <activity
+86            android:name="com.courierx.MainActivity"
+87            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+88            android:exported="true"
+89            android:hardwareAccelerated="true"
+90            android:launchMode="singleTop"
+91            android:theme="@style/LaunchTheme"
+92            android:windowSoftInputMode="adjustResize" >
+93            <meta-data
+94                android:name="io.flutter.embedding.android.NormalTheme"
+95                android:resource="@style/NormalTheme" />
+96            <meta-data
+97                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+98                android:resource="@drawable/launch_background" />
+99            <meta-data
+100                android:name="flutterEmbedding"
+101                android:value="2" />
+102
+103            <intent-filter>
+104                <action android:name="android.intent.action.MAIN" />
+105
+106                <category android:name="android.intent.category.LAUNCHER" />
+107            </intent-filter>
+108        </activity>
+109
+110        <meta-data
+111            android:name="flutterEmbedding"
+112            android:value="2" />
+113
+114        <activity
+114-->[:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:54
+115            android:name="co.paystack.flutterpaystack.AuthActivity"
+115-->[:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-68
+116            android:theme="@style/Paystack.Dialog" />
+116-->[:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-51
+117
+118        <service
+118-->[:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+119            android:name="com.google.firebase.components.ComponentDiscoveryService"
+119-->[:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:31:13-37
+122            <meta-data
+122-->[:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+123                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+123-->[:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+125            <meta-data
+125-->[:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+126                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+126-->[:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+129                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+129-->[com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+131            <meta-data
+131-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+132                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+132-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+135-->[com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+137        </service>
+138        <service
+138-->[:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+139            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+139-->[:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+140            android:enabled="true"
+140-->[:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+141            android:exported="false"
+141-->[:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+142            android:foregroundServiceType="location" />
+142-->[:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+143
+144        <provider
+144-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+145            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+145-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+146            android:authorities="com.courierx.flutter.image_provider"
+146-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+147            android:exported="false"
+147-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+148            android:grantUriPermissions="true" >
+148-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+149            <meta-data
+149-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+150                android:name="android.support.FILE_PROVIDER_PATHS"
+150-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+151                android:resource="@xml/flutter_image_picker_file_paths" />
+151-->[:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+152        </provider>
+153
+154        <receiver
+154-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+155            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+155-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-91
+156            android:exported="false" />
+156-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+157        <receiver
+157-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:40
+158            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+158-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-97
+159            android:exported="false" />
+159-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+160        <receiver
+160-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-29:20
+161            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+161-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-101
+162            android:exported="false" >
+162-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+163            <intent-filter>
+163-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-28:29
+164                <action android:name="android.intent.action.BOOT_COMPLETED" />
+164-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-79
+164-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-76
+165                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+165-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-84
+165-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-81
+166                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+166-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-82
+166-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-79
+167                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+167-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-82
+167-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-79
+168            </intent-filter>
+169        </receiver>
+170
+171        <activity
+171-->[:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+172            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+172-->[:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+173            android:exported="false"
+173-->[:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+174            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+174-->[:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+175
+176        <service
+176-->[:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-15:56
+177            android:name="com.lyokone.location.FlutterLocationService"
+177-->[:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+178            android:enabled="true"
+178-->[:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+179            android:exported="false"
+179-->[:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+180            android:foregroundServiceType="location" />
+180-->[:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-53
+181
+182        <uses-library
+182-->[androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+183            android:name="androidx.window.extensions"
+183-->[androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+184            android:required="false" />
+184-->[androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+185        <uses-library
+185-->[androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+186            android:name="androidx.window.sidecar"
+186-->[androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+187            android:required="false" />
+187-->[androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+188
+189        <provider
+189-->[com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+190            android:name="com.google.firebase.provider.FirebaseInitProvider"
+190-->[com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+191            android:authorities="com.courierx.firebaseinitprovider"
+191-->[com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+192            android:directBootAware="true"
+192-->[com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+193            android:exported="false"
+193-->[com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+194            android:initOrder="100" />
+194-->[com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+195        <provider
+195-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+196            android:name="androidx.startup.InitializationProvider"
+196-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+197            android:authorities="com.courierx.androidx-startup"
+197-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+198            android:exported="false" >
+198-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+199            <meta-data
+199-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+200                android:name="androidx.work.WorkManagerInitializer"
+200-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+201                android:value="androidx.startup" />
+201-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+202        </provider>
+203
+204        <service
+204-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+205            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+205-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+207            android:enabled="@bool/enable_system_alarm_service_default"
+207-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+208            android:exported="false" />
+208-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+209        <service
+209-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+210            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+210-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+211            android:directBootAware="false"
+211-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+212            android:enabled="@bool/enable_system_job_service_default"
+212-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+213            android:exported="true"
+213-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+214            android:permission="android.permission.BIND_JOB_SERVICE" />
+214-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+215        <service
+215-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+216            android:name="androidx.work.impl.foreground.SystemForegroundService"
+216-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+218            android:enabled="@bool/enable_system_foreground_service_default"
+218-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+219            android:exported="false" />
+219-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+220
+221        <receiver
+221-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+222            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+222-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+223            android:directBootAware="false"
+223-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+224            android:enabled="true"
+224-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+225            android:exported="false" />
+225-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+226        <receiver
+226-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+227            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+227-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+228            android:directBootAware="false"
+228-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+229            android:enabled="false"
+229-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+230            android:exported="false" >
+230-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+231            <intent-filter>
+231-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+232                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+232-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+232-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+233                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+233-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+233-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+234            </intent-filter>
+235        </receiver>
+236        <receiver
+236-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+237            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+237-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+238            android:directBootAware="false"
+238-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+239            android:enabled="false"
+239-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+240            android:exported="false" >
+240-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+241            <intent-filter>
+241-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+242                <action android:name="android.intent.action.BATTERY_OKAY" />
+242-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+242-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+243                <action android:name="android.intent.action.BATTERY_LOW" />
+243-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+243-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+244            </intent-filter>
+245        </receiver>
+246        <receiver
+246-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+247            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+247-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+248            android:directBootAware="false"
+248-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+249            android:enabled="false"
+249-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+250            android:exported="false" >
+250-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+251            <intent-filter>
+251-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+252                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+252-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+252-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+253                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+253-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+253-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+254            </intent-filter>
+255        </receiver>
+256        <receiver
+256-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+257            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+257-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+258            android:directBootAware="false"
+258-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+259            android:enabled="false"
+259-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+260            android:exported="false" >
+260-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+261            <intent-filter>
+261-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+262                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+262-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+262-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+263            </intent-filter>
+264        </receiver>
+265        <receiver
+265-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+266            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+266-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+268            android:enabled="false"
+268-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+269            android:exported="false" >
+269-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+271                <action android:name="android.intent.action.BOOT_COMPLETED" />
+271-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-79
+271-->[:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-76
+272                <action android:name="android.intent.action.TIME_SET" />
+272-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+272-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+273                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+273-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+273-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+274            </intent-filter>
+275        </receiver>
+276        <receiver
+276-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+277            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+277-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+278            android:directBootAware="false"
+278-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+279            android:enabled="@bool/enable_system_alarm_service_default"
+279-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+280            android:exported="false" >
+280-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+281            <intent-filter>
+281-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+282                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+282-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+282-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+283            </intent-filter>
+284        </receiver>
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+286            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+286-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+288            android:enabled="true"
+288-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+289            android:exported="true"
+289-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+290            android:permission="android.permission.DUMP" >
+290-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+291            <intent-filter>
+291-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+292                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+292-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+292-->[androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+293            </intent-filter>
+294        </receiver> <!-- Needs to be explicitly declared on P+ -->
+295        <uses-library
+295-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+296            android:name="org.apache.http.legacy"
+296-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+297            android:required="false" />
+297-->[com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+298
+299        <receiver
+299-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+300            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+300-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+301            android:enabled="true"
+301-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+302            android:exported="false" >
+302-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+303        </receiver>
+304
+305        <service
+305-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+306            android:name="com.google.android.gms.measurement.AppMeasurementService"
+306-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+307            android:enabled="true"
+307-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+308            android:exported="false" />
+308-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+309        <service
+309-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+310            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+310-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+311            android:enabled="true"
+311-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+312            android:exported="false"
+312-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+313            android:permission="android.permission.BIND_JOB_SERVICE" />
+313-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+314
+315        <activity
+315-->[com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+316            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+316-->[com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+317            android:exported="false"
+317-->[com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+318            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+318-->[com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+319
+320        <meta-data
+320-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+321            android:name="com.google.android.gms.version"
+321-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+322            android:value="@integer/google_play_services_version" />
+322-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+323
+324        <service
+324-->[androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+325            android:name="androidx.room.MultiInstanceInvalidationService"
+325-->[androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+326            android:directBootAware="true"
+326-->[androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+327            android:exported="false" />
+327-->[androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+328    </application>
+329
+330</manifest>

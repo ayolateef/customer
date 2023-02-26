@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163927083326",
+    "project_id": "distro-55bdd",
+    "storage_bucket": "distro-55bdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163927083326:android:9273e72ac9dc4095b8046f",
+        "android_client_info": {
+          "package_name": "com.courierx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163927083326-fqtkr04r7eravf2mrsj2ueldbusapo1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqTZYci2GzZJyeiOxWYqs5ZZZ1vITWuk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163927083326-fqtkr04r7eravf2mrsj2ueldbusapo1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

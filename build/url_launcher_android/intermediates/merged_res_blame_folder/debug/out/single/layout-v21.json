@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_res/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/aed67887b4fcad1d77e66cfab4538a19/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_res/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/aed67887b4fcad1d77e66cfab4538a19/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_res/debug/layout-v21/notification_action.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/aed67887b4fcad1d77e66cfab4538a19/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_res/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/aed67887b4fcad1d77e66cfab4538a19/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

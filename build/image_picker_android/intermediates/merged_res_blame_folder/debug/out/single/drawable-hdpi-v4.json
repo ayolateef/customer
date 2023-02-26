@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    }
+]

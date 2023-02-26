@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/layout/notification_action.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/layout/custom_dialog.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/layout/notification_template_part_time.xml"
+    }
+]

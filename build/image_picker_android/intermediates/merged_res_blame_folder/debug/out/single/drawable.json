@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable/notification_bg.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_res/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/nckappdev/.gradle/caches/transforms-3/623eae55fd05afa59d328eef8b5e18e5/transformed/core-1.8.0/res/drawable/notification_tile_bg.xml"
+    }
+]

@@ -1,0 +1,989 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:10:5-44:19
+MERGED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:19
+MERGED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:19
+MERGED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-30:19
+MERGED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-30:19
+MERGED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/11408b199cf952209d32ec7c1a3da1a4/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/11408b199cf952209d32ec7c1a3da1a4/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/nckappdev/.gradle/caches/transforms-3/ab5a6d03c0c0895a1e1280cf7af1fe76/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/nckappdev/.gradle/caches/transforms-3/ab5a6d03c0c0895a1e1280cf7af1fe76/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/nckappdev/.gradle/caches/transforms-3/d9ed427488ec2c35cc55e351ff86e73a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/nckappdev/.gradle/caches/transforms-3/d9ed427488ec2c35cc55e351ff86e73a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/1ea3ac302974bbacae4c147737d4db7a/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/1ea3ac302974bbacae4c147737d4db7a/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/nckappdev/.gradle/caches/transforms-3/15df55fc8d924e764f8a808216678b43/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/nckappdev/.gradle/caches/transforms-3/15df55fc8d924e764f8a808216678b43/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/78697d740072ccd94077318fbcd92525/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/78697d740072ccd94077318fbcd92525/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nckappdev/.gradle/caches/transforms-3/ed7d601462d6b465180fb2906ad945dc/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nckappdev/.gradle/caches/transforms-3/ed7d601462d6b465180fb2906ad945dc/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0714e1db8963d731c48d7276dfbbefd6/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0714e1db8963d731c48d7276dfbbefd6/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/18dd31b3f69ae90cc1c945349b9d8c4d/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/18dd31b3f69ae90cc1c945349b9d8c4d/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nckappdev/.gradle/caches/transforms-3/78b9c34b4e942f8c5bb65e5756a2433e/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nckappdev/.gradle/caches/transforms-3/78b9c34b4e942f8c5bb65e5756a2433e/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e9192d1e93ad6302d797c7190b556d1b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e9192d1e93ad6302d797c7190b556d1b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/nckappdev/.gradle/caches/transforms-3/1aeabc54c4c1ffefe6b22b362ad4c82f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/nckappdev/.gradle/caches/transforms-3/1aeabc54c4c1ffefe6b22b362ad4c82f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/675495dea16c8f0678f864a3ef9852a8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/675495dea16c8f0678f864a3ef9852a8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/d4a6f5b744abd381990aaf42e5b96b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/d4a6f5b744abd381990aaf42e5b96b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:1-60:12
+MERGED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:1-60:12
+MERGED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:google_maps_flutter_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
+MERGED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:android_intent_plus] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/android_intent_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:workmanager] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/workmanager/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/package_info/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:android_intent] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/android_intent/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/9ad17fbf97932eb3be19b717d3cea9c8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/11408b199cf952209d32ec7c1a3da1a4/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/nckappdev/.gradle/caches/transforms-3/ab5a6d03c0c0895a1e1280cf7af1fe76/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/nckappdev/.gradle/caches/transforms-3/d9ed427488ec2c35cc55e351ff86e73a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/1ea3ac302974bbacae4c147737d4db7a/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.media:media:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/671e30548d13b6c6610682d3064f9940/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/aeee83836f98fcb749e01fb81906d525/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/nckappdev/.gradle/caches/transforms-3/15df55fc8d924e764f8a808216678b43/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/78697d740072ccd94077318fbcd92525/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/9cf39aa3bfe01e7a7d0ecf22a9d7c6be/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nckappdev/.gradle/caches/transforms-3/ed7d601462d6b465180fb2906ad945dc/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0714e1db8963d731c48d7276dfbbefd6/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/18dd31b3f69ae90cc1c945349b9d8c4d/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nckappdev/.gradle/caches/transforms-3/78b9c34b4e942f8c5bb65e5756a2433e/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e9192d1e93ad6302d797c7190b556d1b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/nckappdev/.gradle/caches/transforms-3/1aeabc54c4c1ffefe6b22b362ad4c82f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/d8a7d8261bf7225d0803c87665804347/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/nckappdev/.gradle/caches/transforms-3/91331d418e1380cff82835284620d472/transformed/fragment-1.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/6da68488bfbd53e9f359b946377859a2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/4b8f56339b5dfef317805da50f9fbe0f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/f2a8f78e70e27c96b860e8365b6288e8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/ab173e064ad18d9a46002e0896355350/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/4db4a5600561e31aeaf42489b0fbb7c0/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/58e540019129793d6cecd793b29a734a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/0afb4e40b3fc6576497a8c87021936ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0815dbe58b6af2239e2dbd1806ef7833/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/dab32ac658c747f7c1ba2ac224d11830/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/f5f1b99be02b04a4aa123ef302a342c7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e381c9e377abab52613d8525fc51433b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/6d76ee787abc119a02012bab6a74042e/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/a5bf7de08966115150e5b200d683dc6a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/35421b482a982ff7117dc84936ac5f8a/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/nckappdev/.gradle/caches/transforms-3/e7046098863be8411752337f1b8e926d/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/572103aca2fb085b369c3d624586f59f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/675495dea16c8f0678f864a3ef9852a8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/bb3a9ac28b527928ff07b53172e9223d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/92a46894355ebfd41551d62dfe01fae4/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/3a2d89d8ec4188ea8f8b0d977ed99c41/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nckappdev/.gradle/caches/transforms-3/01cbc860440b0934367da9479692707e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/d4a6f5b744abd381990aaf42e5b96b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/2d24ee86213e36e77c772a0960914cb1/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/705c0aa4e71d0212481cb6d7341ba0e2/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/a76a0063468608a7cae4258085221033/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/52acfee0c69ab1d13b6adbb433b8f1d2/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/5019feca00e6352647e4137756601d1f/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f78a2784e87f0993f080880e0d497ca5/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/4189519beefc19131231c215e7ad78ec/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c4f7bb920dbf3d45850fd802207d05ae/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/34dd0888e183097bde97e6d87326d084/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0ff150c6c681b667fda0c0ab246655f2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0b8517d2390527d020e0c9f296de911e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/aa1fd448e714aaa439bec668050007a6/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/329f31cc8e89ebe896660b5d7e0235b8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/nckappdev/.gradle/caches/transforms-3/94435e1efb5083182c5195aed8d951c0/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:1-60:12
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:1-60:12
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:3:5-79
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:3:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:5:5-69
+MERGED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-69
+MERGED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:5:22-66
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-feature#android.hardware.location.network
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:7:5-95
+	android:required
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:7:68-92
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:7:19-67
+uses-feature#android.hardware.location.gps
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:8:5-92
+	android:required
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:8:64-88
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:8:19-63
+queries
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:45:5-59:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:46:9-50:18
+action#android.intent.action.VIEW
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:47:13-65
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:47:21-62
+category#android.intent.category.BROWSABLE
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:48:13-74
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:48:23-71
+data
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:49:13-44
+	android:scheme
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:49:19-41
+intent#action:name:android.intent.action.DIAL+data:scheme:tel
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:51:9-54:18
+action#android.intent.action.DIAL
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:52:13-65
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:52:21-62
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:55:9-58:18
+action#android.intent.action.SEND
+ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:56:13-65
+	android:name
+		ADDED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml:56:21-62
+uses-sdk
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+MERGED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent_plus] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/android_intent_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent_plus] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/android_intent_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:workmanager] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/workmanager/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:workmanager] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/workmanager/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/package_info/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/package_info/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/android_intent/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/android_intent/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/9ad17fbf97932eb3be19b717d3cea9c8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/9ad17fbf97932eb3be19b717d3cea9c8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/11408b199cf952209d32ec7c1a3da1a4/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/11408b199cf952209d32ec7c1a3da1a4/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.6.1] /Users/nckappdev/.gradle/caches/transforms-3/ab5a6d03c0c0895a1e1280cf7af1fe76/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/nckappdev/.gradle/caches/transforms-3/ab5a6d03c0c0895a1e1280cf7af1fe76/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/nckappdev/.gradle/caches/transforms-3/d9ed427488ec2c35cc55e351ff86e73a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/nckappdev/.gradle/caches/transforms-3/d9ed427488ec2c35cc55e351ff86e73a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/1ea3ac302974bbacae4c147737d4db7a/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/1ea3ac302974bbacae4c147737d4db7a/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.media:media:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/671e30548d13b6c6610682d3064f9940/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/671e30548d13b6c6610682d3064f9940/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/aeee83836f98fcb749e01fb81906d525/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/aeee83836f98fcb749e01fb81906d525/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/nckappdev/.gradle/caches/transforms-3/15df55fc8d924e764f8a808216678b43/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/nckappdev/.gradle/caches/transforms-3/15df55fc8d924e764f8a808216678b43/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/78697d740072ccd94077318fbcd92525/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/78697d740072ccd94077318fbcd92525/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/9cf39aa3bfe01e7a7d0ecf22a9d7c6be/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/9cf39aa3bfe01e7a7d0ecf22a9d7c6be/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nckappdev/.gradle/caches/transforms-3/ed7d601462d6b465180fb2906ad945dc/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nckappdev/.gradle/caches/transforms-3/ed7d601462d6b465180fb2906ad945dc/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0714e1db8963d731c48d7276dfbbefd6/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0714e1db8963d731c48d7276dfbbefd6/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/18dd31b3f69ae90cc1c945349b9d8c4d/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/18dd31b3f69ae90cc1c945349b9d8c4d/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nckappdev/.gradle/caches/transforms-3/78b9c34b4e942f8c5bb65e5756a2433e/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nckappdev/.gradle/caches/transforms-3/78b9c34b4e942f8c5bb65e5756a2433e/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e9192d1e93ad6302d797c7190b556d1b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e9192d1e93ad6302d797c7190b556d1b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/nckappdev/.gradle/caches/transforms-3/1aeabc54c4c1ffefe6b22b362ad4c82f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/nckappdev/.gradle/caches/transforms-3/1aeabc54c4c1ffefe6b22b362ad4c82f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/d8a7d8261bf7225d0803c87665804347/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/d8a7d8261bf7225d0803c87665804347/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/nckappdev/.gradle/caches/transforms-3/91331d418e1380cff82835284620d472/transformed/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/nckappdev/.gradle/caches/transforms-3/91331d418e1380cff82835284620d472/transformed/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/6da68488bfbd53e9f359b946377859a2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/6da68488bfbd53e9f359b946377859a2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/4b8f56339b5dfef317805da50f9fbe0f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/4b8f56339b5dfef317805da50f9fbe0f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/f2a8f78e70e27c96b860e8365b6288e8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/f2a8f78e70e27c96b860e8365b6288e8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/ab173e064ad18d9a46002e0896355350/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/ab173e064ad18d9a46002e0896355350/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/4db4a5600561e31aeaf42489b0fbb7c0/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nckappdev/.gradle/caches/transforms-3/4db4a5600561e31aeaf42489b0fbb7c0/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/58e540019129793d6cecd793b29a734a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/58e540019129793d6cecd793b29a734a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/0afb4e40b3fc6576497a8c87021936ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/0afb4e40b3fc6576497a8c87021936ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0815dbe58b6af2239e2dbd1806ef7833/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0815dbe58b6af2239e2dbd1806ef7833/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/dab32ac658c747f7c1ba2ac224d11830/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/dab32ac658c747f7c1ba2ac224d11830/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/f5f1b99be02b04a4aa123ef302a342c7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/f5f1b99be02b04a4aa123ef302a342c7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e381c9e377abab52613d8525fc51433b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/e381c9e377abab52613d8525fc51433b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/6d76ee787abc119a02012bab6a74042e/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/6d76ee787abc119a02012bab6a74042e/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/a5bf7de08966115150e5b200d683dc6a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/a5bf7de08966115150e5b200d683dc6a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/35421b482a982ff7117dc84936ac5f8a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nckappdev/.gradle/caches/transforms-3/35421b482a982ff7117dc84936ac5f8a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/nckappdev/.gradle/caches/transforms-3/e7046098863be8411752337f1b8e926d/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/nckappdev/.gradle/caches/transforms-3/e7046098863be8411752337f1b8e926d/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/572103aca2fb085b369c3d624586f59f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/572103aca2fb085b369c3d624586f59f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/675495dea16c8f0678f864a3ef9852a8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/675495dea16c8f0678f864a3ef9852a8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/bb3a9ac28b527928ff07b53172e9223d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/bb3a9ac28b527928ff07b53172e9223d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/92a46894355ebfd41551d62dfe01fae4/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/92a46894355ebfd41551d62dfe01fae4/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/3a2d89d8ec4188ea8f8b0d977ed99c41/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/3a2d89d8ec4188ea8f8b0d977ed99c41/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nckappdev/.gradle/caches/transforms-3/01cbc860440b0934367da9479692707e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nckappdev/.gradle/caches/transforms-3/01cbc860440b0934367da9479692707e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/d4a6f5b744abd381990aaf42e5b96b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nckappdev/.gradle/caches/transforms-3/d4a6f5b744abd381990aaf42e5b96b07/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/2d24ee86213e36e77c772a0960914cb1/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/2d24ee86213e36e77c772a0960914cb1/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/705c0aa4e71d0212481cb6d7341ba0e2/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/705c0aa4e71d0212481cb6d7341ba0e2/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/a76a0063468608a7cae4258085221033/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/a76a0063468608a7cae4258085221033/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/52acfee0c69ab1d13b6adbb433b8f1d2/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/52acfee0c69ab1d13b6adbb433b8f1d2/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/5019feca00e6352647e4137756601d1f/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/5019feca00e6352647e4137756601d1f/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f78a2784e87f0993f080880e0d497ca5/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f78a2784e87f0993f080880e0d497ca5/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/4189519beefc19131231c215e7ad78ec/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/4189519beefc19131231c215e7ad78ec/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c4f7bb920dbf3d45850fd802207d05ae/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c4f7bb920dbf3d45850fd802207d05ae/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/34dd0888e183097bde97e6d87326d084/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/34dd0888e183097bde97e6d87326d084/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0ff150c6c681b667fda0c0ab246655f2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0ff150c6c681b667fda0c0ab246655f2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0b8517d2390527d020e0c9f296de911e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0b8517d2390527d020e0c9f296de911e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/aa1fd448e714aaa439bec668050007a6/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/aa1fd448e714aaa439bec668050007a6/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/329f31cc8e89ebe896660b5d7e0235b8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/329f31cc8e89ebe896660b5d7e0235b8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/nckappdev/.gradle/caches/transforms-3/94435e1efb5083182c5195aed8d951c0/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/nckappdev/.gradle/caches/transforms-3/94435e1efb5083182c5195aed8d951c0/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/android/app/src/debug/AndroidManifest.xml
+activity#co.paystack.flutterpaystack.AuthActivity
+ADDED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:54
+	android:theme
+		ADDED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-51
+	android:name
+		ADDED from [:flutter_paystack] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_paystack/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-68
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-74
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-74
+receiver#com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-91
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-29:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-28:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-79
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+uses-feature#android.hardware.telephony
+ADDED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:flutter_phone_direct_caller] /Users/nckappdev/AndroidStudioProjects/lapmnet2/customer/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-50
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/nckappdev/.gradle/caches/transforms-3/0f4b1274c05ae4cf638b0ca48bd0e52b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/nckappdev/.gradle/caches/transforms-3/96f3268225801370f2c657baa08e1e4f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0714e1db8963d731c48d7276dfbbefd6/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nckappdev/.gradle/caches/transforms-3/0714e1db8963d731c48d7276dfbbefd6/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/e73cb09b71969780454a428dc316587c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/26fa0e957b43bb25e9105f09623b259c/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/nckappdev/.gradle/caches/transforms-3/152ddc08fa794910fabe2d58ddbe97fa/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/nckappdev/.gradle/caches/transforms-3/d500aa690d9c870fbb39d42ce05d5a92/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/675495dea16c8f0678f864a3ef9852a8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nckappdev/.gradle/caches/transforms-3/675495dea16c8f0678f864a3ef9852a8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/nckappdev/.gradle/caches/transforms-3/0ab1f4ef6495f1c4b099103979a087a5/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/c5aa7c592baef91564566e8af147ecd6/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/25c0b03c5cc4c6b1c1b11b18653dec79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/nckappdev/.gradle/caches/transforms-3/f3656bbb6148d4a03393553a117f7e50/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/82bdc77c2c42b0f85bef5f9fc2a31a33/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nckappdev/.gradle/caches/transforms-3/4dde91bd61b882a2b9df7164948d4b08/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.courierx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.courierx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/nckappdev/.gradle/caches/transforms-3/0f47dc33e2299bb411a166c8e399fa5f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/nckappdev/.gradle/caches/transforms-3/ff5d6836509a9e8f4ad1ecaaf584db3e/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74

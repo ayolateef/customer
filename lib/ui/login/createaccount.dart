@@ -1,0 +1,205 @@
+import 'dart:developer';
+
+import 'package:flutter/material.dart';
+import 'package:courierx/main.dart';
+import 'package:courierx/view_models/createaccount.dart';
+import 'package:courierx/widget/iappBar.dart';
+import 'package:courierx/widget/ibackground3.dart';
+import 'package:courierx/widget/ibox.dart';
+import 'package:courierx/widget/ibutton.dart';
+import 'package:courierx/widget/iinputField2.dart';
+import 'package:courierx/widget/iinputField2Password.dart';
+import 'package:courierx/servicelocator.dart';
+import 'package:courierx/services/account/createaccount.dart';
+import 'package:provider/provider.dart';
+
+class CreateAccountScreen extends StatefulWidget {
+  @override
+  _CreateAccountScreenState createState() => _CreateAccountScreenState();
+}
+
+class _CreateAccountScreenState extends State<CreateAccountScreen>
+    with SingleTickerProviderStateMixin {
+  //////////////////////////////////////////////////////////////////////////////////////////////////////
+  CreateAccountServices createAccountServices =
+      serviceLocator<CreateAccountServices>();
+
+  CreateAccountViewModel setemail = serviceLocator<CreateAccountViewModel>();
+  final scaffoldKey = new GlobalKey<ScaffoldMessengerState>();
+
+  _pressCreateAccountButton() {
+    print("got here");
+    if (editControllerPassword1.text != editControllerPassword2.text ) {
+      print(editControllerPassword1.text);
+      print(editControllerPassword2.text);
+      print("got here if 1");
+      _showSnackBar("Password not a match");
+      return "Password not a match";
+    } else if(editControllerPassword1.text == null || editControllerName.text == null || editControllerEmail.text == null || editControllerPassword2.text == null){
+      _showSnackBar("Fill empty fields");
+      return "Password not a match";
+    }else {
+      print("got here else");
+      String result;
+      Future<String> res = createAccountServices
+          .addNewAccount(editControllerName.text, editControllerEmail.text,
+              editControllerPassword1.text)
+          .then((value) {
+        result = value;
+        _showSnackBar(result);
+        if (result == "success") {
+          Provider.of<CreateAccountViewModel>(context, listen: false)
+              .logonemailset(editControllerEmail.text);
+          route.push(context, "/sendphone");
+        } else {
+          String text = "username/email address already exist";
+          _showSnackBar(text);
+        }
+        return result;
+      });
+      // _showSnackBar(result);
+
+      return res;
+    }
+  }
+
+  void _showSnackBar(String text) {
+    scaffoldKey.currentState!.showSnackBar(new SnackBar(
+      content: new Text(text),
+    ));
+  }
+
+  //
+  //////////////////////////////////////////////////////////////////////////////////////////////////////
+  var windowWidth;
+  var windowHeight;
+  final editControllerName = TextEditingController();
+  final editControllerEmail = TextEditingController();
+  final editControllerPassword1 = TextEditingController();
+  final editControllerPassword2 = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    route.disposeLast();
+    editControllerName.dispose();
+    editControllerEmail.dispose();
+    editControllerPassword1.dispose();
+    editControllerPassword2.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    windowWidth = MediaQuery.of(context).size.width;
+    windowHeight = MediaQuery.of(context).size.height;
+    return Scaffold(
+      backgroundColor: theme.colorBackground,
+      key: scaffoldKey,
+      body: Stack(
+        children: <Widget>[
+          IBackground4(
+              width: windowWidth, colorsGradient: theme.colorsGradient),
+          IAppBar(context: context, text: "", color: Colors.white),
+          Center(
+              child: Container(
+            margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
+            width: windowWidth,
+            child: _body(),
+          )),
+        ],
+      ),
+    );
+  }
+
+  _body() {
+    return ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Container(
+          margin: EdgeInsets.only(left: 15, right: 20),
+          alignment: Alignment.centerLeft,
+          child: Text(strings.get(24)!, // "Create an Account!"
+              style: theme.text20boldWhite),
+        ),
+        SizedBox(
+          height: 20,
+        ),
+        IBox(
+            color: theme.colorBackgroundDialog,
+            press: () {  },
+            child: Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 15,
+                ),
+                Container(
+                    margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                    child: IInputField2(
+                      hint: strings.get(15)!, // "Login"
+                      icon: Icons.account_circle,
+                      colorDefaultText: theme.colorPrimary,
+                      colorBackground: theme.colorBackgroundDialog,
+                      controller: editControllerName,
+                    )),
+                SizedBox(
+                  height: 10,
+                ),
+                Container(
+                    margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                    child: IInputField2(
+                      hint: strings.get(21)!, // "E-mail address",
+                      icon: Icons.alternate_email,
+                      colorDefaultText: theme.colorPrimary,
+                      colorBackground: theme.colorBackgroundDialog,
+                      controller: editControllerEmail,
+                    )),
+                SizedBox(
+                  height: 10,
+                ),
+                Container(
+                    margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                    child: IInputField2Password(
+                      hint: strings.get(16)!, // "Password"
+                      icon: Icons.vpn_key,
+                      colorDefaultText: theme.colorPrimary,
+                      colorBackground: theme.colorBackgroundDialog,
+                      controller: editControllerPassword1,
+                    )),
+                SizedBox(
+                  height: 10,
+                ),
+                Container(
+                    margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                    child: IInputField2Password(
+                      hint: strings.get(25)!, // "Confirm Password"
+                      icon: Icons.vpn_key,
+                      colorDefaultText: theme.colorPrimary,
+                      colorBackground: theme.colorBackgroundDialog,
+                      controller: editControllerPassword2,
+                    )),
+                SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  margin: EdgeInsets.only(left: 20, right: 20),
+                  child: IButton(
+                    pressButton: _pressCreateAccountButton,
+                    text: strings.get(26)!, // CREATE ACCOUNT
+                    color: theme.colorPrimary,
+                    textStyle: theme.text16boldWhite,
+                  ),
+                ),
+                SizedBox(
+                  height: 15,
+                ),
+              ],
+            )),
+      ],
+    );
+  }
+}
